@@ -15,7 +15,7 @@
         alert("Masukkan apikeymu!", "", "error");
       } else {
         var xhr = new XMLHttpRequest();
-        var url = `http://localhost:8080/docs/cekapikey?apikey=${apikey.value}`;
+        var url = `https://rizfurr-api.herokuapp.com/docs/cekapikey?apikey=${apikey.value}`;
         xhr.onloadend = function () {
 
           data = JSON.parse(this.responseText);
@@ -27,7 +27,7 @@
           } else {
             textnya.textContent = '[ INFO ] Apikey anda tidak valid!'
             swal("Apikey Tidak Valid!", "", "error");
-            alert('Apikey Tidak Valid. Silahkan beli apikey ke Instagram @zeeoneofc');
+            alert('Apikey Tidak Valid. Silahkan beli apikey ke Instagram @prodbyfxntvsy');
             amlert.classList.remove('hideop')
           }
         };
