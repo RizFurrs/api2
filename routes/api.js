@@ -1,16 +1,3 @@
-// Jika ada bug / eror mohon maklumi om , ini cuma latihan buat sy untuk belajar dikit" soal programing
-// Gada reupload" 😏
-// Klo mau colong fitur, jgn asal colong bodoh ntr api eror
-
-// Thanks to ( jgn di hapus jamet)
-/*
-<p> Loli Killers</p>
-<p> Rynz</p>
-<p> Eka Danuarta</p>
-<p> ZeeoneOfc </p>
-<p> Creative Time [ For Template ]</p>
-<p> ALL HUMAN</p>
-*/
 __path = process.cwd()
 
 var aexm = require('@lolikillers/aexm-api');
@@ -22,8 +9,8 @@ var lolkill = db.get("lolkill");
 	console.log('')
 }
 
-var creator = 'ZeeoneOfc' // ubah jadi nama lu
-const listkey = ["Alphabot","Zeeone","ZeeoneOfc"]; // ubah apikey nya, tambah aja klo mau
+var creator = 'RizFurr' // ubah jadi nama lu
+const listkey = ["uwu","beta","NodeBot"]; // ubah apikey nya, tambah aja klo mau
 
 var axios = require('axios');
 var qs = require('qs');
