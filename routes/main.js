@@ -3,9 +3,14 @@ __path = process.cwd()
 var express = require('express');
 var router = express.Router();
 
-/*router.get('/', (req, res) => {
-    res.sendFile(__path + '/docs/home.html')
-})*/
+router.get('/login', (req, res) => {
+    res.sendFile(__path + '/login.html')
+})
+
+router.get('/register', (req,res) => {
+	
+	
+res.sendFile(__path + '/docs/register.html')})
 
 router.get('/', (req, res) => {
 	res.sendFile(__path + '/docs/dashboard.html')
