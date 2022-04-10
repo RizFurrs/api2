@@ -1,3 +1,12 @@
+require('make-promises-safe')
+
+const { join } = require('path')
+const { networkInterfaces } = require('os')
+const Fastify = require('fastify')
+const fastifyErrorPageMiddleware = require('fastify-error-page')
+const serve = require('fastify-static')
+const ytdl = require('ytdl-core')
+const contentDisposition = require('content-disposition')
 var express = require('express'),
     cors = require('cors'),
     secure = require('ssl-express-www');
