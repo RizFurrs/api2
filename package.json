@@ -1,5 +1,5 @@
 {
-  "name": "Alphabot-api",
+  "name": "api-rizfurr",
   "version": "1.0.0",
   "description": "res api website",
   "main": "index.js",
@@ -20,6 +20,12 @@
   "dependencies": {
     "@lolikillers/aexm-api": "github:Aexm47/AEXM47",
     "axios": "^0.21.1",
+    "content-disposition": "^0.5.4",
+    "fastify": "^3.27.4",
+    "nodemon": "^2.0.15",
+    "fastify-error-page": "^4.0.0",
+    "fastify-static": "^4.6.1",
+    "make-promises-safe": "^5.1.0",
     "base-64": "^1.0.0",
     "base32": "0.0.6",
     "chalk": "^4.1.0",
@@ -39,7 +45,7 @@
     "scrape-yt": "^1.4.8",
     "ssl-express-www": "^3.0.7",
     "urlencode": "^1.1.0",
-    "ytdl-core": "^4.4.5",
+    "ytdl-core": "^4.11.0",
     "ytpl": "^2.0.5"
   }
 }
