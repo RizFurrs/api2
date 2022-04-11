@@ -2,10 +2,10 @@ var __path = process.cwd(),
       monk = require('monk'),
      { color } = require(__path + '/lib/color.js')
 
-// Connection URL
-var url = 'isi dengan url database mongodb';
+
+var url = 'user:pass@localhost:port/api';
 try {
-if(url == 'isi dengan url database mongodb') throw console.log(color('Configurasi database, var url belum diisi','red'));
+if(url == 'localhost') throw console.log(color('Configurasi database, var url belum diisi','red'));
 } catch (e) {
 	return;
 	}
